@@ -1,4 +1,4 @@
-# [Release Version 1.6](https://github.com/shephertz/App42_CSHARP_SDK/blob/master/Change%20Log.md#version-16)
+* [Release Version 1.6](https://github.com/shephertz/App42_CSHARP_SDK/blob/master/Change%20Log.md#version-16)
 
 ## Version 1.6
 
@@ -69,8 +69,4 @@ GetAllMessagesFromGroup
 ```
 None
 ```
-Note :-
-
-New Async API For All Methods.
-
-Now support .net verson 3.5.
+**Note :-** New Async API For All Methods & Now support .net verson 3.5.
