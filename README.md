@@ -5,4 +5,4 @@ App42 Cloud API Client SDK files for C#
 
 [Download the latest App42 C# SDK] (https://github.com/shephertz/App42_CSHARP_SDK/raw/master/1.7/app42_csharp_sdk_1.7.zip)
 
-[Documentation and API guide] (http://api.shephertz.com/cloudapidocs/index.php)
+[Documentation and API guide] (http://api.shephertz.com/app42-dev/csharp-backend-apis.php)
