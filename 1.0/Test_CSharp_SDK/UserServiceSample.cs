@@ -28,7 +28,7 @@ namespace Test_CSharp_SDK
             /// get it once you will create a app in app42 console.
 
             ServiceAPI sp = new ServiceAPI("YOUR_API_KEY","YOUR_SECRET_KEY");
-
+            sp.SetBaseURL("YOUR API SERVER URL");
             /// Create Instance of User Service
             UserService userService = sp.BuildUserService();
             /// Create user or call other available method on the user service
