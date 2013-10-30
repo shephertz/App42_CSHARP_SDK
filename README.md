@@ -1,4 +1,4 @@
-App42_CSHARP_SDK
+App42_BPaaS_CSharp_SDK
 ================
 
 App42 BPaaS Cloud API Client SDK files for CSHARP
