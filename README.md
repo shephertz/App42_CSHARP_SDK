@@ -1,7 +1,7 @@
 App42_BPaaS_CSharp_SDK
 ================
 
-App42 BPaaS Cloud API Client SDK files for CSHARP
+App42 BPaaS Cloud API Client SDK for CSHARP
 
 - Download the App42 BPaaS CSHARP SDK
 - Unzip the file and open **App42 CSHARP Sample** project.
