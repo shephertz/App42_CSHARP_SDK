@@ -43,6 +43,14 @@ FacebookLinkPostWithCustomThumbnail
 GetFacebookProfile
 ```
 
+**The following features have been pushed to the services :**
+
+**SCOREBOARD SERVICE**
+
+```
+GetTopNRankersFromFacebook
+```
+
 **PUSHNOTIFICATION SERVICE**
 
 ```
