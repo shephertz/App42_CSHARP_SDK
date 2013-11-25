@@ -43,6 +43,12 @@ FacebookLinkPostWithCustomThumbnail
 GetFacebookProfile
 ```
 
+**SCOREBOARD SERVICE**
+
+```
+GetTopNRankersFromFacebook
+```
+
 **PUSHNOTIFICATION SERVICE**
 
 ```
