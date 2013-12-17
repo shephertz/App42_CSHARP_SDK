@@ -1,4 +1,25 @@
+* [Release Version 1.8](https://github.com/shephertz/App42_CSHARP_SDK/blob/1.x/Change%20Log.md#version-18)
 * [Release Version 1.7](https://github.com/shephertz/App42_CSHARP_SDK/blob/1.x/Change%20Log.md#version-17)
+
+## Version 1.8
+
+**Release Date:** 23-10-2013
+
+**Release Version:** 1.8
+
+**The following Services have been pushed to the latest :**
+
+```
+AB Test Service
+```
+
+**This release contains the following bug fix:**
+
+```
+None
+```
+**Note :-** New Async API For All Methods & Now support .net verson 3.5.
+
 
 ## Version 1.7
 
