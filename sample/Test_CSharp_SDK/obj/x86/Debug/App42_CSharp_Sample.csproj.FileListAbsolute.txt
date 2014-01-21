@@ -30,3 +30,10 @@ F:\Public repo\App42_Csharp_SDK\sample\Test_CSharp_SDK\bin\Debug\Test_CSharp_SDK
 F:\Public repo\App42_Csharp_SDK\sample\Test_CSharp_SDK\bin\Debug\Test_CSharp_SDK.exe
 F:\Public repo\App42_Csharp_SDK\sample\Test_CSharp_SDK\bin\Debug\Test_CSharp_SDK.pdb
 F:\Public repo\App42_Csharp_SDK\sample\Test_CSharp_SDK\bin\Debug\App42_CSHARP_SDK_1.7.dll
+E:\Public repo\App42_Csharp_SDK\sample\Test_CSharp_SDK\bin\Debug\Test_CSharp_SDK.exe.config
+E:\Public repo\App42_Csharp_SDK\sample\Test_CSharp_SDK\obj\x86\Debug\Test_CSharp_SDK.exe
+E:\Public repo\App42_Csharp_SDK\sample\Test_CSharp_SDK\obj\x86\Debug\Test_CSharp_SDK.pdb
+E:\Public repo\App42_Csharp_SDK\sample\Test_CSharp_SDK\bin\Debug\Test_CSharp_SDK.exe
+E:\Public repo\App42_Csharp_SDK\sample\Test_CSharp_SDK\bin\Debug\Test_CSharp_SDK.pdb
+E:\Public repo\App42_Csharp_SDK\sample\Test_CSharp_SDK\bin\Debug\App42_CSHARP_SDK_1.9.1.dll
+E:\Public repo\App42_Csharp_SDK\sample\Test_CSharp_SDK\obj\x86\Debug\ResolveAssemblyReference.cache

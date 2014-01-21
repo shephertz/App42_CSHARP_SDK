@@ -18,6 +18,7 @@ namespace Test_CSharp_SDK
         static void Main(string[] args)
         {
             SaveUserScore();
+            
         }
         /// <summary>
         /// Test Method for saving the user score in App42 Cloud. 
@@ -27,7 +28,7 @@ namespace Test_CSharp_SDK
             /// Enter your Public Key and Private Key Here in Constructor. You can
             /// get it once you will create a app in app42 console.
 
-            ServiceAPI sp = new ServiceAPI("<Enter_your_api_key>","<Enter_your_secret_key>");
+            ServiceAPI sp = new ServiceAPI("<Your_API_Key>", "<Your_Secret_Key>");
 
             String gameName = "PokerGame";
             String userName = "Nick";
@@ -48,7 +49,7 @@ namespace Test_CSharp_SDK
                     Console.WriteLine("scoreId is : " + saveScore.GetScoreList()[i].GetScoreId());
                 }
             }
-            catch (App42NotFoundException ex)
+            catch (App42Exception ex)
             {
                 /// Exception Caught
                 /// Do exception Handling of Score Board Service functions.
@@ -65,7 +66,13 @@ namespace Test_CSharp_SDK
                         Console.WriteLine("scoreId is : " + game.GetScoreList()[i].GetScoreId());
                     }
                 }
+                else
+                {
+                    Console.WriteLine("Exception is : " + ex.ToString());
+                }
+
             }
+            Console.ReadKey();
         }
     }
 }
