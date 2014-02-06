@@ -66,6 +66,10 @@ namespace Test_CSharp_SDK
                         Console.WriteLine("scoreId is : " + game.GetScoreList()[i].GetScoreId());
                     }
                 }
+                else if (ex.GetAppErrorCode() == 1401)
+                {
+                    Console.WriteLine("Please verify your API_KEY and SECRET_KEY From AppHq Console (Apphq.shephertz.com).");
+                }
                 else
                 {
                     Console.WriteLine("Exception is : " + ex.ToString());

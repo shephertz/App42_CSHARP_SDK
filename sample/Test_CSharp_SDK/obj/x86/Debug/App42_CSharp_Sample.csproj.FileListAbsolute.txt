@@ -37,3 +37,10 @@ E:\Public repo\App42_Csharp_SDK\sample\Test_CSharp_SDK\bin\Debug\Test_CSharp_SDK
 E:\Public repo\App42_Csharp_SDK\sample\Test_CSharp_SDK\bin\Debug\Test_CSharp_SDK.pdb
 E:\Public repo\App42_Csharp_SDK\sample\Test_CSharp_SDK\bin\Debug\App42_CSHARP_SDK_1.9.1.dll
 E:\Public repo\App42_Csharp_SDK\sample\Test_CSharp_SDK\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\@Public_SDK_Master\App42_C#_SDK\sample\Test_CSharp_SDK\bin\Debug\Test_CSharp_SDK.exe.config
+D:\@Public_SDK_Master\App42_C#_SDK\sample\Test_CSharp_SDK\obj\x86\Debug\Test_CSharp_SDK.exe
+D:\@Public_SDK_Master\App42_C#_SDK\sample\Test_CSharp_SDK\obj\x86\Debug\Test_CSharp_SDK.pdb
+D:\@Public_SDK_Master\App42_C#_SDK\sample\Test_CSharp_SDK\bin\Debug\Test_CSharp_SDK.exe
+D:\@Public_SDK_Master\App42_C#_SDK\sample\Test_CSharp_SDK\bin\Debug\Test_CSharp_SDK.pdb
+D:\@Public_SDK_Master\App42_C#_SDK\sample\Test_CSharp_SDK\bin\Debug\App42_CSHARP_SDK_2.0.dll
+D:\@Public_SDK_Master\App42_C#_SDK\sample\Test_CSharp_SDK\obj\x86\Debug\App42_CSharp_Sample.csprojResolveAssemblyReference.cache
