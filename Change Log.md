@@ -12,6 +12,12 @@
 
 **The following features have been pushed to the services :**
 
+**The following features have been pushed  :**
+
+```
+MetaInfo in UserService (GetUser, GetUsersByRole, GetUserByEmailId) and ScoreBoardService(GetTopNRankers, GetTopNTargetRankers).
+```
+
 **STORAGE SERVICE**
 ```
 1.Inlist Support for storage query.
