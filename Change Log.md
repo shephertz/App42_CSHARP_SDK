@@ -26,6 +26,7 @@
 **PUSH NOTIFICATION SERVICE**
 ```
 1.SendMessageToInactiveUsers.
+2.ScheduleMessageToUser.
 ```
 
 **REVIEW SERVICE**
