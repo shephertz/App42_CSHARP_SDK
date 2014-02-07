@@ -44,6 +44,7 @@ MetaInfo in UserService (GetUser, GetUsersByRole, GetUserByEmailId) and ScoreBoa
 **SCOREBOARD SERVICE**
 ```
 1.GetTopNTargetRankers.
+2.GetTopNRankersFromFacebook(including rankers in specified date range).
 ```
 
 **BUDDY SERVICE**
@@ -68,7 +69,7 @@ None.
 **This release contains the following bug fix:**
 
 ```
-1. Total Records Count Fixed.
+1.Total Records Count Fixed.
 ```
 
 ## Version 1.9
