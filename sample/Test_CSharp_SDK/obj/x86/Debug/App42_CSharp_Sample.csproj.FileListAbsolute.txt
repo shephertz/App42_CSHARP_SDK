@@ -42,5 +42,5 @@ D:\@Public_SDK_Master\App42_C#_SDK\sample\Test_CSharp_SDK\obj\x86\Debug\Test_CSh
 D:\@Public_SDK_Master\App42_C#_SDK\sample\Test_CSharp_SDK\obj\x86\Debug\Test_CSharp_SDK.pdb
 D:\@Public_SDK_Master\App42_C#_SDK\sample\Test_CSharp_SDK\bin\Debug\Test_CSharp_SDK.exe
 D:\@Public_SDK_Master\App42_C#_SDK\sample\Test_CSharp_SDK\bin\Debug\Test_CSharp_SDK.pdb
-D:\@Public_SDK_Master\App42_C#_SDK\sample\Test_CSharp_SDK\bin\Debug\App42_CSHARP_SDK_2.0.dll
 D:\@Public_SDK_Master\App42_C#_SDK\sample\Test_CSharp_SDK\obj\x86\Debug\App42_CSharp_Sample.csprojResolveAssemblyReference.cache
+D:\@Public_SDK_Master\App42_C#_SDK\sample\Test_CSharp_SDK\bin\Debug\App42_CSHARP_SDK_2.1.dll

@@ -50,9 +50,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="App42_CSHARP_SDK_2.0, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\App42_CSHARP_SDK_2.0.dll</HintPath>
+    <Reference Include="App42_CSHARP_SDK_2.1">
+      <HintPath>.\App42_CSHARP_SDK_2.1.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
