@@ -11,7 +11,7 @@ __Download And Set Up SDK :-__
 
 2). Unzip the downloaded Zip file. Unzipped folder contains version folders of dll and a sample folder.
 
-3). Version folder (i.e __0.0__, __0.1__ etc) will contain __App42_CSHARP_SDK_x.x.x.dll__ and docs.
+3). Version folder (i.e __0.0__, __0.1__ etc) will contain __App42_CSHARP_SDK_x.x.x.dll__.
 
 4). Then add __App42_CSHARP_SDK_x.x.x.dll__ in References of your CSHARP project.
 
