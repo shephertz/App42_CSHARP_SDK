@@ -1,9 +1,53 @@
+* [Release Version 2.2](https://github.com/shephertz/App42_CSHARP_SDK/blob/master/Change%20Log.md#version-22)
 * [Release Version 2.1](https://github.com/shephertz/App42_CSHARP_SDK/blob/master/Change%20Log.md#version-21)
 * [Release Version 2.0](https://github.com/shephertz/App42_CSHARP_SDK/blob/master/Change%20Log.md#version-20)
 * [Release Version 1.9.1](https://github.com/shephertz/App42_CSHARP_SDK/blob/master/Change%20Log.md#version-191)
 * [Release Version 1.9](https://github.com/shephertz/App42_CSHARP_SDK/blob/master/Change%20Log.md#version-19)
 * [Release Version 1.8](https://github.com/shephertz/App42_CSHARP_SDK/blob/master/Change%20Log.md#version-18)
 * [Release Version 1.7](https://github.com/shephertz/App42_CSHARP_SDK/blob/master/Change%20Log.md#version-17)
+
+## Version 2.2
+
+**Release Date:** 30-07-2014
+
+**Release Version:** 2.2
+
+**The following Services have been pushed to the latest :**
+
+```
+1.Timer Service.
+2.Gift Service.
+```
+
+**The following features have been pushed to the services :**
+
+**PUSH NOTIFICATION SERVICE**
+```
+1.DeleteChannel.
+2.GetChannelUsersCount.
+3.GetChannelUsers.
+4.GetUserSubscribedChannelsCount.
+5.GetUserSubscribedChannels.
+6.DeleteAllDevices.
+7.SendPushMessageToDevice.
+8.UpdatePushBadgeforDevice.
+9.UpdatePushBadgeforUser.
+10.ClearAllBadgeCount.
+```
+
+**AVATAR SERVICE**
+```
+1.UpdateAvatar.
+2.DeleteAvatarByName.
+3.DeleteAllAvatars.
+```
+
+**This release contains the following bug fix:**
+
+```
+None.
+```
+
 
 ## Version 2.1
 
