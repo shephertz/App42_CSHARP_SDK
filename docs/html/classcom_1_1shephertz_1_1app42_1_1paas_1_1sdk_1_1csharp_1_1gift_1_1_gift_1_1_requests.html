@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Properties</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -96,89 +96,427 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a52809363fcf89c5d24ee72087e1d2658"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a52809363fcf89c5d24ee72087e1d2658"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Requests</b> (<a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift.html">Gift</a> gift)</td></tr>
+<tr class="memitem:a52809363fcf89c5d24ee72087e1d2658"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#a52809363fcf89c5d24ee72087e1d2658">Requests</a> (<a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift.html">Gift</a> gift)</td></tr>
 <tr class="separator:a52809363fcf89c5d24ee72087e1d2658"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2004cf561fd514eaefa5e508f14b9fe2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2004cf561fd514eaefa5e508f14b9fe2"></a>
-DateTime&#160;</td><td class="memItemRight" valign="bottom"><b>GetSentOn</b> ()</td></tr>
+<tr class="memitem:a2004cf561fd514eaefa5e508f14b9fe2"><td class="memItemLeft" align="right" valign="top">DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#a2004cf561fd514eaefa5e508f14b9fe2">GetSentOn</a> ()</td></tr>
 <tr class="separator:a2004cf561fd514eaefa5e508f14b9fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a745331c4e0e612897d3f5dc1e10ac5af"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a745331c4e0e612897d3f5dc1e10ac5af"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetSentOn</b> (DateTime sentOn)</td></tr>
+<tr class="memitem:a745331c4e0e612897d3f5dc1e10ac5af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#a745331c4e0e612897d3f5dc1e10ac5af">SetSentOn</a> (DateTime <a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#af83b9120dade63595d80daa388219019">sentOn</a>)</td></tr>
 <tr class="separator:a745331c4e0e612897d3f5dc1e10ac5af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03dc9c7065bfe8137f4a6bf7eddff5c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a03dc9c7065bfe8137f4a6bf7eddff5c7"></a>
-DateTime&#160;</td><td class="memItemRight" valign="bottom"><b>GetExpiration</b> ()</td></tr>
+<tr class="memitem:a03dc9c7065bfe8137f4a6bf7eddff5c7"><td class="memItemLeft" align="right" valign="top">DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#a03dc9c7065bfe8137f4a6bf7eddff5c7">GetExpiration</a> ()</td></tr>
 <tr class="separator:a03dc9c7065bfe8137f4a6bf7eddff5c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d2e95a83b5b5190cf19eb5508ca209a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7d2e95a83b5b5190cf19eb5508ca209a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetExpiration</b> (DateTime expiration)</td></tr>
+<tr class="memitem:a7d2e95a83b5b5190cf19eb5508ca209a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#a7d2e95a83b5b5190cf19eb5508ca209a">SetExpiration</a> (DateTime <a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#afc0258103b38d39c4b5a5f665e658483">expiration</a>)</td></tr>
 <tr class="separator:a7d2e95a83b5b5190cf19eb5508ca209a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6f2c4d0ea9e2d36a661489c69ebdaa9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6f2c4d0ea9e2d36a661489c69ebdaa9"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>GetType</b> ()</td></tr>
+<tr class="memitem:ac6f2c4d0ea9e2d36a661489c69ebdaa9"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#ac6f2c4d0ea9e2d36a661489c69ebdaa9">GetType</a> ()</td></tr>
 <tr class="separator:ac6f2c4d0ea9e2d36a661489c69ebdaa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90df85f3f8baaa56a9bbec82c56d89d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90df85f3f8baaa56a9bbec82c56d89d1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetType</b> (String type)</td></tr>
+<tr class="memitem:a90df85f3f8baaa56a9bbec82c56d89d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#a90df85f3f8baaa56a9bbec82c56d89d1">SetType</a> (String <a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#ade1faf3921afa255a58884cd417a87b6">type</a>)</td></tr>
 <tr class="separator:a90df85f3f8baaa56a9bbec82c56d89d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afedc86b4e03350662baa81db965d028f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afedc86b4e03350662baa81db965d028f"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>GetSender</b> ()</td></tr>
+<tr class="memitem:afedc86b4e03350662baa81db965d028f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#afedc86b4e03350662baa81db965d028f">GetSender</a> ()</td></tr>
 <tr class="separator:afedc86b4e03350662baa81db965d028f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bb912e6d4f3888d8e4425f71d86c71f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7bb912e6d4f3888d8e4425f71d86c71f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetSender</b> (String sender)</td></tr>
+<tr class="memitem:a7bb912e6d4f3888d8e4425f71d86c71f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#a7bb912e6d4f3888d8e4425f71d86c71f">SetSender</a> (String <a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#a6e273754237e4faa7637d9de156d1579">sender</a>)</td></tr>
 <tr class="separator:a7bb912e6d4f3888d8e4425f71d86c71f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a250dc0914a365c27ab772632088e8432"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a250dc0914a365c27ab772632088e8432"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>GetRecipient</b> ()</td></tr>
+<tr class="memitem:a250dc0914a365c27ab772632088e8432"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#a250dc0914a365c27ab772632088e8432">GetRecipient</a> ()</td></tr>
 <tr class="separator:a250dc0914a365c27ab772632088e8432"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47a4e5061b2feba05b9bca68323a1ecd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a47a4e5061b2feba05b9bca68323a1ecd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetRecipient</b> (String recipient)</td></tr>
+<tr class="memitem:a47a4e5061b2feba05b9bca68323a1ecd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#a47a4e5061b2feba05b9bca68323a1ecd">SetRecipient</a> (String <a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#a25855b41102f7107b60afd1a86b1f146">recipient</a>)</td></tr>
 <tr class="separator:a47a4e5061b2feba05b9bca68323a1ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4fac409d9ff3f7634417cdddbb5310e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad4fac409d9ff3f7634417cdddbb5310e"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>GetRequestId</b> ()</td></tr>
+<tr class="memitem:ad4fac409d9ff3f7634417cdddbb5310e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#ad4fac409d9ff3f7634417cdddbb5310e">GetRequestId</a> ()</td></tr>
 <tr class="separator:ad4fac409d9ff3f7634417cdddbb5310e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12db66c540893e5643361f7910d8ebc6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a12db66c540893e5643361f7910d8ebc6"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetRequestId</b> (String requestId)</td></tr>
+<tr class="memitem:a12db66c540893e5643361f7910d8ebc6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#a12db66c540893e5643361f7910d8ebc6">SetRequestId</a> (String <a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#a6ac937d0587a246d08cef78a4b696543">requestId</a>)</td></tr>
 <tr class="separator:a12db66c540893e5643361f7910d8ebc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44a678930542f128d377eece0f2ead96"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a44a678930542f128d377eece0f2ead96"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>GetMessage</b> ()</td></tr>
+<tr class="memitem:a44a678930542f128d377eece0f2ead96"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#a44a678930542f128d377eece0f2ead96">GetMessage</a> ()</td></tr>
 <tr class="separator:a44a678930542f128d377eece0f2ead96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a876355be5b2f858256e1c1468f884efe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a876355be5b2f858256e1c1468f884efe"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMessage</b> (String message)</td></tr>
+<tr class="memitem:a876355be5b2f858256e1c1468f884efe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#a876355be5b2f858256e1c1468f884efe">SetMessage</a> (String <a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#aa52776a1944cad2689332665351cc3d6">message</a>)</td></tr>
 <tr class="separator:a876355be5b2f858256e1c1468f884efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7ccc307c118ec042cd2f232c0699591"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af7ccc307c118ec042cd2f232c0699591"></a>
-DateTime&#160;</td><td class="memItemRight" valign="bottom"><b>GetReceivedOn</b> ()</td></tr>
+<tr class="memitem:af7ccc307c118ec042cd2f232c0699591"><td class="memItemLeft" align="right" valign="top">DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#af7ccc307c118ec042cd2f232c0699591">GetReceivedOn</a> ()</td></tr>
 <tr class="separator:af7ccc307c118ec042cd2f232c0699591"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb91a88936f511235fc3626f1c97b044"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acb91a88936f511235fc3626f1c97b044"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetReceivedOn</b> (DateTime receivedOn)</td></tr>
+<tr class="memitem:acb91a88936f511235fc3626f1c97b044"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#acb91a88936f511235fc3626f1c97b044">SetReceivedOn</a> (DateTime <a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#aa03debb36771d4bd5a146b48d1043b18">receivedOn</a>)</td></tr>
 <tr class="separator:acb91a88936f511235fc3626f1c97b044"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a6e273754237e4faa7637d9de156d1579"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6e273754237e4faa7637d9de156d1579"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>sender</b></td></tr>
+<tr class="memitem:a6e273754237e4faa7637d9de156d1579"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#a6e273754237e4faa7637d9de156d1579">sender</a></td></tr>
 <tr class="separator:a6e273754237e4faa7637d9de156d1579"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25855b41102f7107b60afd1a86b1f146"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a25855b41102f7107b60afd1a86b1f146"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>recipient</b></td></tr>
+<tr class="memitem:a25855b41102f7107b60afd1a86b1f146"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#a25855b41102f7107b60afd1a86b1f146">recipient</a></td></tr>
 <tr class="separator:a25855b41102f7107b60afd1a86b1f146"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc0258103b38d39c4b5a5f665e658483"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afc0258103b38d39c4b5a5f665e658483"></a>
-DateTime&#160;</td><td class="memItemRight" valign="bottom"><b>expiration</b></td></tr>
+<tr class="memitem:afc0258103b38d39c4b5a5f665e658483"><td class="memItemLeft" align="right" valign="top">DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#afc0258103b38d39c4b5a5f665e658483">expiration</a></td></tr>
 <tr class="separator:afc0258103b38d39c4b5a5f665e658483"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af83b9120dade63595d80daa388219019"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af83b9120dade63595d80daa388219019"></a>
-DateTime&#160;</td><td class="memItemRight" valign="bottom"><b>sentOn</b></td></tr>
+<tr class="memitem:af83b9120dade63595d80daa388219019"><td class="memItemLeft" align="right" valign="top">DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#af83b9120dade63595d80daa388219019">sentOn</a></td></tr>
 <tr class="separator:af83b9120dade63595d80daa388219019"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ac937d0587a246d08cef78a4b696543"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ac937d0587a246d08cef78a4b696543"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>requestId</b></td></tr>
+<tr class="memitem:a6ac937d0587a246d08cef78a4b696543"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#a6ac937d0587a246d08cef78a4b696543">requestId</a></td></tr>
 <tr class="separator:a6ac937d0587a246d08cef78a4b696543"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade1faf3921afa255a58884cd417a87b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade1faf3921afa255a58884cd417a87b6"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>type</b></td></tr>
+<tr class="memitem:ade1faf3921afa255a58884cd417a87b6"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#ade1faf3921afa255a58884cd417a87b6">type</a></td></tr>
 <tr class="separator:ade1faf3921afa255a58884cd417a87b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa52776a1944cad2689332665351cc3d6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa52776a1944cad2689332665351cc3d6"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>message</b></td></tr>
+<tr class="memitem:aa52776a1944cad2689332665351cc3d6"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#aa52776a1944cad2689332665351cc3d6">message</a></td></tr>
 <tr class="separator:aa52776a1944cad2689332665351cc3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa03debb36771d4bd5a146b48d1043b18"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa03debb36771d4bd5a146b48d1043b18"></a>
-DateTime&#160;</td><td class="memItemRight" valign="bottom"><b>receivedOn</b></td></tr>
+<tr class="memitem:aa03debb36771d4bd5a146b48d1043b18"><td class="memItemLeft" align="right" valign="top">DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift_1_1_requests.html#aa03debb36771d4bd5a146b48d1043b18">receivedOn</a></td></tr>
 <tr class="separator:aa03debb36771d4bd5a146b48d1043b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a52809363fcf89c5d24ee72087e1d2658"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.Requests </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1gift_1_1_gift.html">Gift</a>&#160;</td>
+          <td class="paramname"><em>gift</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a03dc9c7065bfe8137f4a6bf7eddff5c7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DateTime com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.GetExpiration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a44a678930542f128d377eece0f2ead96"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.GetMessage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af7ccc307c118ec042cd2f232c0699591"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DateTime com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.GetReceivedOn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a250dc0914a365c27ab772632088e8432"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.GetRecipient </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad4fac409d9ff3f7634417cdddbb5310e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.GetRequestId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afedc86b4e03350662baa81db965d028f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.GetSender </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2004cf561fd514eaefa5e508f14b9fe2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DateTime com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.GetSentOn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac6f2c4d0ea9e2d36a661489c69ebdaa9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.GetType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7d2e95a83b5b5190cf19eb5508ca209a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.SetExpiration </td>
+          <td>(</td>
+          <td class="paramtype">DateTime&#160;</td>
+          <td class="paramname"><em>expiration</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a876355be5b2f858256e1c1468f884efe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.SetMessage </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acb91a88936f511235fc3626f1c97b044"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.SetReceivedOn </td>
+          <td>(</td>
+          <td class="paramtype">DateTime&#160;</td>
+          <td class="paramname"><em>receivedOn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a47a4e5061b2feba05b9bca68323a1ecd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.SetRecipient </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>recipient</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a12db66c540893e5643361f7910d8ebc6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.SetRequestId </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>requestId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7bb912e6d4f3888d8e4425f71d86c71f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.SetSender </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>sender</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a745331c4e0e612897d3f5dc1e10ac5af"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.SetSentOn </td>
+          <td>(</td>
+          <td class="paramtype">DateTime&#160;</td>
+          <td class="paramname"><em>sentOn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a90df85f3f8baaa56a9bbec82c56d89d1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.SetType </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="afc0258103b38d39c4b5a5f665e658483"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DateTime com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.expiration</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa52776a1944cad2689332665351cc3d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.message</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa03debb36771d4bd5a146b48d1043b18"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DateTime com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.receivedOn</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a25855b41102f7107b60afd1a86b1f146"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.recipient</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6ac937d0587a246d08cef78a4b696543"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.requestId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6e273754237e4faa7637d9de156d1579"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.sender</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af83b9120dade63595d80daa388219019"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DateTime com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.sentOn</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ade1faf3921afa255a58884cd417a87b6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.shephertz.app42.paas.sdk.csharp.gift.Gift.Requests.type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 30 2014 15:50:00 for App42_CSharp_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 1 2014 13:09:21 for App42_CSharp_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

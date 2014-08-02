@@ -70,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Properties</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -95,23 +95,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>Security Exception thrown when the API-KEY, SECRET-KEY, Signature is incorrect or the client is not authorized to make the call. This maps to the 401 Http error code.  
  <a href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1_app42_security_exception.html#details">More...</a></p>
-<div class="dynheader">
-Inheritance diagram for com.shephertz.app42.paas.sdk.csharp.App42SecurityException:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1_app42_security_exception.png" usemap="#com.shephertz.app42.paas.sdk.csharp.App42SecurityException_map" alt=""/>
-  <map id="com.shephertz.app42.paas.sdk.csharp.App42SecurityException_map" name="com.shephertz.app42.paas.sdk.csharp.App42SecurityException_map">
-<area href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1_app42_exception.html" alt="com.shephertz.app42.paas.sdk.csharp.App42Exception" shape="rect" coords="0,56,373,80"/>
-</map>
- </div></div>
+
+<p>Inherits <a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1_app42_exception.html">com.shephertz.app42.paas.sdk.csharp.App42Exception</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aee3dc15d6c820bf29fd52816b4ec7bf2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee3dc15d6c820bf29fd52816b4ec7bf2"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>App42SecurityException</b> (string message)</td></tr>
+<tr class="memitem:aee3dc15d6c820bf29fd52816b4ec7bf2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1_app42_security_exception.html#aee3dc15d6c820bf29fd52816b4ec7bf2">App42SecurityException</a> (string message)</td></tr>
 <tr class="separator:aee3dc15d6c820bf29fd52816b4ec7bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73c421ad61ec6b251e64b8203f4e2e4d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a73c421ad61ec6b251e64b8203f4e2e4d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>App42SecurityException</b> (string message, int httpErrorCode, int appErrorCode)</td></tr>
+<tr class="memitem:a73c421ad61ec6b251e64b8203f4e2e4d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1_app42_security_exception.html#a73c421ad61ec6b251e64b8203f4e2e4d">App42SecurityException</a> (string message, int httpErrorCode, int appErrorCode)</td></tr>
 <tr class="separator:a73c421ad61ec6b251e64b8203f4e2e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad543b6738d39b698bb6a73a45632b8ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1shephertz_1_1app42_1_1paas_1_1sdk_1_1csharp_1_1_app42_security_exception.html#ad543b6738d39b698bb6a73a45632b8ab">SetHttpErrorCode</a> (int httpErrorCode)</td></tr>
 <tr class="memdesc:ad543b6738d39b698bb6a73a45632b8ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the HttpErrorCode for the Exception  <a href="#ad543b6738d39b698bb6a73a45632b8ab">More...</a><br /></td></tr>
@@ -153,7 +144,56 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Security Exception thrown when the API-KEY, SECRET-KEY, Signature is incorrect or the client is not authorized to make the call. This maps to the 401 Http error code. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="aee3dc15d6c820bf29fd52816b4ec7bf2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.shephertz.app42.paas.sdk.csharp.App42SecurityException.App42SecurityException </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>message</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a73c421ad61ec6b251e64b8203f4e2e4d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.shephertz.app42.paas.sdk.csharp.App42SecurityException.App42SecurityException </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>httpErrorCode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>appErrorCode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="acc00635a299c191182189bf836d16d35"></a>
 <div class="memitem">
 <div class="memproto">
@@ -239,7 +279,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 30 2014 15:49:58 for App42_CSharp_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 1 2014 13:09:21 for App42_CSharp_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

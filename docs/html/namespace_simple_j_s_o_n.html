@@ -60,6 +60,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="namespaces.html"><span>Packages</span></a></li>
+      <li><a href="namespacemembers.html"><span>Package&#160;Functions</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -67,7 +68,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Properties</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -92,7 +93,7 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simple_j_s_o_n_1_1_j_object.html">JObject</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>JSON</b></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simple_j_s_o_n_1_1_j_s_o_n.html">JSON</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_simple_j_s_o_n_1_1_j_s_o_n_class.html">JSONClass</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -103,23 +104,52 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ac295d5b1d543de2e0fbcbd6363a27f50"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac295d5b1d543de2e0fbcbd6363a27f50"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>JSONBinaryTag</b> { <br />
-&#160;&#160;<b>Array</b> = 1, 
-<b>Class</b> = 2, 
-<b>Value</b> = 3, 
-<b>IntValue</b> = 4, 
+<tr class="memitem:ac295d5b1d543de2e0fbcbd6363a27f50"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_simple_j_s_o_n.html#ac295d5b1d543de2e0fbcbd6363a27f50">JSONBinaryTag</a> { <br />
+&#160;&#160;<a class="el" href="namespace_simple_j_s_o_n.html#ac295d5b1d543de2e0fbcbd6363a27f50a4410ec34d9e6c1a68100ca0ce033fb17">JSONBinaryTag.Array</a> = 1, 
+<a class="el" href="namespace_simple_j_s_o_n.html#ac295d5b1d543de2e0fbcbd6363a27f50a9bd81329febf6efe22788e03ddeaf0af">JSONBinaryTag.Class</a> = 2, 
+<a class="el" href="namespace_simple_j_s_o_n.html#ac295d5b1d543de2e0fbcbd6363a27f50a689202409e48743b914713f96d93947c">JSONBinaryTag.Value</a> = 3, 
+<a class="el" href="namespace_simple_j_s_o_n.html#ac295d5b1d543de2e0fbcbd6363a27f50ab7cb7224d8be8f9f9ca75fcc0b92f561">JSONBinaryTag.IntValue</a> = 4, 
 <br />
-&#160;&#160;<b>DoubleValue</b> = 5, 
-<b>BoolValue</b> = 6, 
-<b>FloatValue</b> = 7
+&#160;&#160;<a class="el" href="namespace_simple_j_s_o_n.html#ac295d5b1d543de2e0fbcbd6363a27f50a2929e07cde46ac25609232760bf03c8a">JSONBinaryTag.DoubleValue</a> = 5, 
+<a class="el" href="namespace_simple_j_s_o_n.html#ac295d5b1d543de2e0fbcbd6363a27f50a7c3cde2b6823cd3c235ecdfe4d3b9375">JSONBinaryTag.BoolValue</a> = 6, 
+<a class="el" href="namespace_simple_j_s_o_n.html#ac295d5b1d543de2e0fbcbd6363a27f50ab8a545944c6b2e9d568d1045b5f5e598">JSONBinaryTag.FloatValue</a> = 7
 <br />
  }</td></tr>
 <tr class="separator:ac295d5b1d543de2e0fbcbd6363a27f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a class="anchor" id="ac295d5b1d543de2e0fbcbd6363a27f50"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_simple_j_s_o_n.html#ac295d5b1d543de2e0fbcbd6363a27f50">SimpleJSON.JSONBinaryTag</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ac295d5b1d543de2e0fbcbd6363a27f50a4410ec34d9e6c1a68100ca0ce033fb17"></a>Array&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ac295d5b1d543de2e0fbcbd6363a27f50a9bd81329febf6efe22788e03ddeaf0af"></a>Class&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ac295d5b1d543de2e0fbcbd6363a27f50a689202409e48743b914713f96d93947c"></a>Value&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ac295d5b1d543de2e0fbcbd6363a27f50ab7cb7224d8be8f9f9ca75fcc0b92f561"></a>IntValue&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ac295d5b1d543de2e0fbcbd6363a27f50a2929e07cde46ac25609232760bf03c8a"></a>DoubleValue&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ac295d5b1d543de2e0fbcbd6363a27f50a7c3cde2b6823cd3c235ecdfe4d3b9375"></a>BoolValue&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ac295d5b1d543de2e0fbcbd6363a27f50ab8a545944c6b2e9d568d1045b5f5e598"></a>FloatValue&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Jul 30 2014 15:50:03 for App42_CSharp_SDK by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Aug 1 2014 13:09:22 for App42_CSharp_SDK by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
