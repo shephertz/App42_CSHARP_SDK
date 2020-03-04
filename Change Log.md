@@ -1,3 +1,4 @@
+* [Release Version 4.0](https://github.com/shephertz/App42_CSHARP_SDK/blob/master/Change%20Log.md#version-24)
 * [Release Version 2.3](https://github.com/shephertz/App42_CSHARP_SDK/blob/master/Change%20Log.md#version-23)
 * [Release Version 2.2](https://github.com/shephertz/App42_CSHARP_SDK/blob/master/Change%20Log.md#version-22)
 * [Release Version 2.1](https://github.com/shephertz/App42_CSHARP_SDK/blob/master/Change%20Log.md#version-21)
@@ -7,6 +8,20 @@
 * [Release Version 1.8](https://github.com/shephertz/App42_CSHARP_SDK/blob/master/Change%20Log.md#version-18)
 * [Release Version 1.7](https://github.com/shephertz/App42_CSHARP_SDK/blob/master/Change%20Log.md#version-17)
 
+
+## Version 4.0
+
+**Release Date:** 04-03-2020
+
+**Release Version:** 4.0
+
+**Note :-** Now supports .Net Framework Verson 4.7.2
+
+**This release contains the following bug fix:**
+
+```
+None
+```
 
 ## Version 2.3
 
